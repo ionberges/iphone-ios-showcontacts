@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA01DD2E18E45CB700720C0A /* ListaContactosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA01DD2D18E45CB700720C0A /* ListaContactosViewController.m */; };
 		FAF78EF518E397D700E16BF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF78EF418E397D700E16BF0 /* Foundation.framework */; };
 		FAF78EF718E397D700E16BF0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF78EF618E397D700E16BF0 /* CoreGraphics.framework */; };
 		FAF78EF918E397D700E16BF0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF78EF818E397D700E16BF0 /* UIKit.framework */; };
@@ -21,6 +22,8 @@
 		FAF78F1618E397D700E16BF0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF78EF818E397D700E16BF0 /* UIKit.framework */; };
 		FAF78F1E18E397D700E16BF0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAF78F1C18E397D700E16BF0 /* InfoPlist.strings */; };
 		FAF78F2018E397D700E16BF0 /* ContactosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF78F1F18E397D700E16BF0 /* ContactosTests.m */; };
+		FAF78F2A18E397E400E16BF0 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF78F2918E397E400E16BF0 /* AddressBook.framework */; };
+		FAF78F2C18E397EC00E16BF0 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF78F2B18E397EC00E16BF0 /* AddressBookUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA01DD2C18E45CB700720C0A /* ListaContactosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListaContactosViewController.h; sourceTree = "<group>"; };
+		FA01DD2D18E45CB700720C0A /* ListaContactosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListaContactosViewController.m; sourceTree = "<group>"; };
 		FAF78EF118E397D700E16BF0 /* Contactos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contactos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF78EF418E397D700E16BF0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FAF78EF618E397D700E16BF0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +58,8 @@
 		FAF78F1B18E397D700E16BF0 /* ContactosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ContactosTests-Info.plist"; sourceTree = "<group>"; };
 		FAF78F1D18E397D700E16BF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FAF78F1F18E397D700E16BF0 /* ContactosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactosTests.m; sourceTree = "<group>"; };
+		FAF78F2918E397E400E16BF0 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		FAF78F2B18E397EC00E16BF0 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAF78F2C18E397EC00E16BF0 /* AddressBookUI.framework in Frameworks */,
+				FAF78F2A18E397E400E16BF0 /* AddressBook.framework in Frameworks */,
 				FAF78EF718E397D700E16BF0 /* CoreGraphics.framework in Frameworks */,
 				FAF78EF918E397D700E16BF0 /* UIKit.framework in Frameworks */,
 				FAF78EF518E397D700E16BF0 /* Foundation.framework in Frameworks */,
@@ -101,6 +110,8 @@
 		FAF78EF318E397D700E16BF0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FAF78F2B18E397EC00E16BF0 /* AddressBookUI.framework */,
+				FAF78F2918E397E400E16BF0 /* AddressBook.framework */,
 				FAF78EF418E397D700E16BF0 /* Foundation.framework */,
 				FAF78EF618E397D700E16BF0 /* CoreGraphics.framework */,
 				FAF78EF818E397D700E16BF0 /* UIKit.framework */,
@@ -115,6 +126,8 @@
 				FAF78F0318E397D700E16BF0 /* AppDelegate.h */,
 				FAF78F0418E397D700E16BF0 /* AppDelegate.m */,
 				FAF78F0618E397D700E16BF0 /* Main.storyboard */,
+				FA01DD2C18E45CB700720C0A /* ListaContactosViewController.h */,
+				FA01DD2D18E45CB700720C0A /* ListaContactosViewController.m */,
 				FAF78F0918E397D700E16BF0 /* ViewController.h */,
 				FAF78F0A18E397D700E16BF0 /* ViewController.m */,
 				FAF78F0C18E397D700E16BF0 /* Images.xcassets */,
@@ -252,6 +265,7 @@
 				FAF78F0B18E397D700E16BF0 /* ViewController.m in Sources */,
 				FAF78F0518E397D700E16BF0 /* AppDelegate.m in Sources */,
 				FAF78F0118E397D700E16BF0 /* main.m in Sources */,
+				FA01DD2E18E45CB700720C0A /* ListaContactosViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +474,7 @@
 				FAF78F2518E397D700E16BF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAF78F2618E397D700E16BF0 /* Build configuration list for PBXNativeTarget "ContactosTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +483,7 @@
 				FAF78F2818E397D700E16BF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
